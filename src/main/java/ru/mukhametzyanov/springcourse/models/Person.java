@@ -3,6 +3,11 @@ package ru.mukhametzyanov.springcourse.models;
 public class Person {
     private int id;
     private String name;
+    private String surname;
+    private String email;
+
+    public Person() {
+    }
 
     public Person(int id, String name) {
         this.id = id;
